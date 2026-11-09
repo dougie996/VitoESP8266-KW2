@@ -1,0 +1,128 @@
+﻿Befehl;Adresse_HEX;Laenge;Auswertung;Rohantwort_HEX;Anzahl_Empfangsbytes;Dekodiert;Beschreibung;Typ;Berechnung
+getBetriebArtM1;2301;1;Vollstaendige Antwort;03;1;H+WW;Betriebsart M1;BA;(null)
+getTempA;0800;2;Vollstaendige Antwort;63 00;2;9.9 Grad C;Ermittle die Aussentemperatur in Grad C;UT;V/10
+getTempAtp;5525;2;Vollstaendige Antwort;61 00;2;9.7 Grad C;Ermittle die Aussentemperatur in Grad C (Tiefpass);UT;V/10
+getTempAged;5527;2;Vollstaendige Antwort;57 00;2;8.7 Grad C;Ermittle die Aussentemperatur in Grad C (Gedaempft);UT;V/10
+getTempWWist;0804;2;Vollstaendige Antwort;AE 01;2;43.0 Grad C;Ermittle die Warmwassertemperatur in Grad C;UT;V/10
+getTempWWsoll;6300;1;Vollstaendige Antwort;2D;1;45 Grad C;Ermittle die Warmwassersolltemperatur in Grad C;UTI;V
+getWWUWPNachlauf;6762;2;Vollstaendige Antwort;0A 00;2;;Ermittle Warmwasserpumpennachlauf;CO;V
+getSpeichervorrang;27A2;1;Vollstaendige Antwort;00;1;;Ermittle den Status Speichervorrang Heizkreis ohne Mischer A1 bzw. mit Mischer M1;ST;V
+getSpeichervorrangM2;37A2;1;Vollstaendige Antwort;02;1;;Ermittle den Status Speichervorrang Heizkreis mit Mischer M2;ST;V
+getSpeichervorrangM3;47A2;1;Vollstaendige Antwort;02;1;;Ermittle den Status Speichervorrang Heizkreis mit Mischer M3;ST;V
+getTempKOffset;6760;1;Vollstaendige Antwort;14;1;20 Grad C;Ermittle Kesseloffset KT ueber WWsoll in Grad C;UTI;V
+getTempKist;0802;2;Vollstaendige Antwort;FA 01;2;50.6 Grad C;Ermittle die Kesseltemperatur in Grad C;UT;V/10
+getTempAbgas;0808;2;Vollstaendige Antwort;C8 00;2;20.0 Grad C;Ermittle die Abgastemperatur in Grad C;UT;V/10
+getTempKtp;0810;2;Vollstaendige Antwort;FD 01;2;50.9 Grad C;Ermittle die Kesseltemperatur in Grad C (Tiefpass);UT;V/10
+getTempKsoll;5502;2;Vollstaendige Antwort;25 02;2;54.9 Grad C;Ermittle die Kesselsolltemperatur in Grad C;UT;V/10
+getBetriebszeitStandby;08B8;4;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF FF FF;4;;Ermittle die NRF_BetriebszeitStandby;CS;V/3600
+getBrennerStatus;55D3;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Ermittle den Brennerstatus;RT;(null)
+getBrennerStatus2;0849;1;Vollstaendige Antwort;00;1;;Ermittle den Brennerstatus Stufe 2;ST;V
+getBrennerStufe;551E;1;Vollstaendige Antwort;01;1;;Ermittle den Brennerstatus aktuelle Stufe;RT;(null)
+getBrennerStarts;088A;2;Vollstaendige Antwort;D4 70;2;;Ermittle die Brennerstarts;CO;V
+getBrennerStunden1;08A7;4;Vollstaendige Antwort;CA 5C C4 06;4;;Ermittle die Brennerstunden Stufe 1;CS;V/3600
+getBrennerStunden2;08AB;4;Vollstaendige Antwort;1A 32 00 00;4;;Ermittle die Brennerstunden Stufe 2;CS;V/3600
+getLeistungIst;A38F;2;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF;2;;Ermittle Anlagen Ist-Leistung;PR3;V/2
+getOeldurchsatz;5726;4;Vollstaendige Antwort;00 00 00 00;4;;Eingestellter Oeldurchsatz Brenner in Dezi-Liter pro Stunde;CO;V
+getOelverbrauch;7574;4;Vollstaendige Antwort;00 00 00 00;4;;Ermittle den Oelverbrauch kumuliert;COL;V/1000
+getNeigungM1;2305;1;Vollstaendige Antwort;10;1;;Ermittle Neigung Heizkennlinie M1;UN;V/10
+getNeigungM2;3305;1;Vollstaendige Antwort;0E;1;;Ermittle Neigung Heizkennlinie M2;UN;V/10
+getNiveauM1;2304;1;Vollstaendige Antwort;00;1;;Ermittle Niveau Heizkennlinie M1;ST;V
+getNiveauM2;3304;1;Vollstaendige Antwort;00;1;;Ermittle Niveau Heizkennlinie M2;ST;V
+getTempVListM2;080C;2;Vollstaendige Antwort;C8 00;2;20.0 Grad C;Ermittle die Vorlauftemperatur M2 in Grad C;UT;V/10
+getTempVLsollM1;2544;2;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF;2;;Ermittle die Vorlaufsolltemperatur M1 in Grad C;UT;V/10
+getTempVLsollM2;3544;2;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF;2;;Ermittle die Vorlaufsolltemperatur M2 in Grad C;UT;V/10
+getTempVLsollM3;4544;2;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF;2;;Ermittle die Vorlaufsolltemperatur M3 in Grad C;UT;V/10
+getTempRL17A;080A;2;Vollstaendige Antwort;C8 00;2;20.0 Grad C;Ermittle die Ruecklauftemperatur 17A in Grad C;UT;V/10
+getTempKol;6564;2;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF;2;;Ermittle die Kollektortemperatur in Grad C;UT;V/10
+getSolarStatusWW;6551;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Ermittle den Status der Nachladeunterdrueckung;RT;(null)
+getSolarStunden;6568;2;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF;2;;Solar Betriebsstunden;CO;V
+getSolarLeistung;6560;4;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF FF FF;4;;Solar Leistung Gesamt;CO;V
+getTempS4;0124;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Ermittle die Temperatur S4 in Grad C;UT1;V/2
+getTempSpu;6566;2;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF;2;;Ermittle die Speichertemperatur unten in Grad C;UT;V/10
+getTempRaumNorSollM1;2306;1;Vollstaendige Antwort;19;1;25 Grad C;Ermittle die Raumsolltemperatur normal M1 in Grad C;UTI;V
+getTempRaumNorSollM2;3306;1;Vollstaendige Antwort;14;1;20 Grad C;Ermittle die Raumsolltemperatur normal M2 in Grad C;UTI;V
+getTempRaumRedSollM1;2307;1;Vollstaendige Antwort;14;1;20 Grad C;Ermittle die Raumsolltemperatur reduziert M1 in Grad C;UTI;V
+getTempRaumRedSollM2;3307;1;Vollstaendige Antwort;03;1;3 Grad C;Ermittle die Raumsolltemperatur reduziert M2 in Grad C;UTI;V
+getPumpeStatusM1;2906;1;Vollstaendige Antwort;01;1;;Ermittle den Status der Pumpe M1;RT;(null)
+getPumpeStatusM2;3906;1;Vollstaendige Antwort;00;1;;Ermittle den Status der Pumpe M2;RT;(null)
+getPumpeDrehzahlM2;3906;1;Vollstaendige Antwort;00;1;;Ermittle die Drehzahl der Pumpe M2;RT;(null)
+getPumpeDrehzahlIntern;3906;1;Vollstaendige Antwort;00;1;;Ermittle die Drehzahl der Internen Pumpe;RT;(null)
+getPumpeStatusSp;0845;1;Vollstaendige Antwort;00;1;;Ermittle den Status der Speicherladepumpe;RT;(null)
+getPumpeStatusZirku;0846;1;Vollstaendige Antwort;01;1;;Ermittle den Status der Zirkulationspumpe;RT;(null)
+getPumpeStatusSolar;6552;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Ermittle den Status der Umwaelzpumpe Solar;RT;(null)
+getPumpeDrehzahlSolar;6552;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Ermittle die Drehzahl der Internen Pumpe;RT;(null)
+getPumpeStatusSolar2;6553;2;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF;2;;Ermittle den Status der Pumpe 2 Solar;PP;(100*B1)/255
+getPumpeStatusSolar3;6554;2;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF;2;;Ermittle den Status der Pumpe 3 Solar;PP;(100*B1)/255
+getPumpeStatusSolar4;6555;2;Nur FF (nicht als gueltigen Wert bestaetigt);FF FF;2;;Ermittle den Status der Pumpe 4 Solar;PP;(100*B1)/255
+getMischerM1;254C;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Ermittle Mischerposition M1;PR;V/2
+getMischerM2;354C;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Ermittle Mischerposition M2;PR;V/2
+getMischerM3;454C;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Ermittle Mischerposition M3;PR;V/2
+getTimerM1Mo;2000;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);18 B8 FF FF FF FF FF FF;8;;Schaltzeit Montag M1;CT;(null)
+getTimerM1Di;2008;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);18 B8 FF FF FF FF FF FF;8;;Schaltzeit Dienstag M1;CT;(null)
+getTimerM1Mi;2010;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);18 B8 FF FF FF FF FF FF;8;;Schaltzeit MIttwoch M1;CT;(null)
+getTimerM1Do;2018;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);18 B8 FF FF FF FF FF FF;8;;Schaltzeit Donnerstag M1;CT;(null)
+getTimerM1Fr;2020;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);18 B8 FF FF FF FF FF FF;8;;Schaltzeit Freitag M1;CT;(null)
+getTimerM1Sa;2028;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);18 B8 FF FF FF FF FF FF;8;;Schaltzeit Samstag M1;CT;(null)
+getTimerM1So;2030;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);18 B8 FF FF FF FF FF FF;8;;Schaltzeit Sonntag M1;CT;(null)
+getTimerM2Mo;3000;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);30 B0 FF FF FF FF FF FF;8;;Schaltzeit Montag M2;CT;(null)
+getTimerM2Di;3008;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);30 B0 FF FF FF FF FF FF;8;;Schaltzeit Dienstag M2;CT;(null)
+getTimerM2Mi;3010;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);30 B0 FF FF FF FF FF FF;8;;Schaltzeit Mittwoch M2;CT;(null)
+getTimerM2Do;3018;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);30 B0 FF FF FF FF FF FF;8;;Schaltzeit Donnerstag M2;CT;(null)
+getTimerM2Fr;3020;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);30 B0 FF FF FF FF FF FF;8;;Schaltzeit Freitag M2;CT;(null)
+getTimerM2Sa;3028;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);30 B0 FF FF FF FF FF FF;8;;Schaltzeit Samstag M2;CT;(null)
+getTimerM2So;3030;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);30 B0 FF FF FF FF FF FF;8;;Schaltzeit Sonntag M2;CT;(null)
+getTimerWWMo;2100;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Montag Warmwasser;CT;(null)
+getTimerWWDi;2108;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Dienstag Warmwasser;CT;(null)
+getTimerWWMi;2110;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Mittwoch Warmwasser;CT;(null)
+getTimerWWDo;2118;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Donnerstag Warmwasser;CT;(null)
+getTimerWWFr;2120;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Freitag Warmwasser;CT;(null)
+getTimerWWSa;2128;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Samstag Warmwasser;CT;(null)
+getTimerWWSo;2130;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Sonntag Warmwasser;CT;(null)
+getTimerZirkuMo;2200;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Montag Zirku;CT;(null)
+getTimerZirkuDi;2208;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Dienstag Zirku;CT;(null)
+getTimerZirkuMi;2210;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Mittwoch Zirku;CT;(null)
+getTimerZirkuDo;2218;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Donnerstag Zirku;CT;(null)
+getTimerZirkuFr;2220;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Freitag Zirku;CT;(null)
+getTimerZirkuSa;2228;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Samstag Zirku;CT;(null)
+getTimerZirkuSo;2230;8;Vollstaendige Antwort mit FF-Anteilen (Teilfelder moeglicherweise unbenutzt);13 B8 FF FF FF FF FF FF;8;;Schaltzeit Sonntag Zirku;CT;(null)
+getBetriebArt;2301;1;Vollstaendige Antwort;03;1;H+WW;Betriebsart;BA;(null)
+getBetriebArtM2;3301;1;Vollstaendige Antwort;05;1;ABSCHALT;Betriebsart M2;BA;(null)
+getBetriebSparM1;2302;1;Vollstaendige Antwort;00;1;;Betriebsart Spar M1;RT;(null)
+getBetriebSparM2;3302;1;Vollstaendige Antwort;00;1;;Betriebsart Spar M2;RT;(null)
+getBetriebPartyM1;2303;1;Vollstaendige Antwort;00;1;;Betriebsart Party M1;RT;(null)
+getBetriebPartyM2;3303;1;Vollstaendige Antwort;00;1;;Betriebsart Party M2;RT;(null)
+getTempPartyM1;2308;1;Vollstaendige Antwort;19;1;;Solltemperatur Partybetrieb M1;ST;V
+getTempPartyM2;3308;1;Vollstaendige Antwort;14;1;;Solltemperatur Partybetrieb M2;ST;V
+getEinflussExtSperren;5732;1;Vollstaendige Antwort;46;1;;Einfluss Extern Sperren auf Pumpen;ST;V
+getEinflussExtAnforderung;5734;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Einfluss Externe Anforderung auf Pumpen;ST;V
+getExtSperren;0A81;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Ist Extern Sperren aktiv;RT;(null)
+getExtAnforderung;0A80;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Ist Externe Anforderung aktiv;RT;(null)
+getStatusFrostM1;2500;1;Vollstaendige Antwort;02;1;;Status Frostwarnung M1;ST;V
+getStatusFrostM2;3500;1;Vollstaendige Antwort;05;1;;Status Frostwarnung M2;ST;V
+getStatusStoerung;7579;1;Vollstaendige Antwort;00;1;;Status Sammelstoerung;RT;(null)
+getError0;7507;9;Vollstaendige Antwort;D1 20 21 03 08 01 09 14 40;9;;Ermittle Fehlerhistory Eintrag 1;ES;(null)
+getError1;7510;9;Vollstaendige Antwort;D1 20 21 03 08 01 09 14 40;9;;Ermittle Fehlerhistory Eintrag 2;ES;(null)
+getError2;7519;9;Vollstaendige Antwort;D1 20 21 03 08 01 09 10 24;9;;Ermittle Fehlerhistory Eintrag 3;ES;(null)
+getError3;7522;9;Vollstaendige Antwort;D1 20 21 03 08 01 04 07 28;9;;Ermittle Fehlerhistory Eintrag 4;ES;(null)
+getError4;752B;9;Vollstaendige Antwort;D1 20 21 03 06 06 12 48 00;9;;Ermittle Fehlerhistory Eintrag 5;ES;(null)
+getError5;7534;9;Vollstaendige Antwort;D1 20 21 03 06 06 12 48 00;9;;Ermittle Fehlerhistory Eintrag 6;ES;(null)
+getError6;753D;9;Vollstaendige Antwort;D1 20 21 03 06 06 12 35 12;9;;Ermittle Fehlerhistory Eintrag 7;ES;(null)
+getError7;7546;9;Vollstaendige Antwort;D1 20 21 03 06 06 12 30 56;9;;Ermittle Fehlerhistory Eintrag 8;ES;(null)
+getError8;754F;9;Vollstaendige Antwort;D1 20 21 03 06 06 05 54 08;9;;Ermittle Fehlerhistory Eintrag 9;ES;(null)
+getError9;7558;9;Vollstaendige Antwort;D1 20 10 02 01 01 13 20 00;9;;Ermittle Fehlerhistory Eintrag 10;ES;(null)
+getSystemTime;088E;8;Vollstaendige Antwort;20 26 11 08 07 13 07 39;8;;Ermittle Systemzeit;TI;(null)
+getK90;7790;1;Vollstaendige Antwort;80;1;;;CO;V
+getDaempfung;7790;1;Vollstaendige Antwort;80;1;;;CO;V
+getKA3_KonfiFrostgrenzeM1_GWG;27A3;1;Vollstaendige Antwort;02;1;2 Grad C;Ermittle die eingestellte Frostgrenze A1M1;UTI;V
+getKA3_KonfiFrostgrenzeM2_GWG;37A3;1;Vollstaendige Antwort;02;1;2 Grad C;Ermittle die eingestellte Frostgrenze;UTI;V
+getKA5;27A5;1;Vollstaendige Antwort;05;1;5 Grad C;Ermittle die Heizkreispumpenlogik−Funktion;UTI;V
+getKA5M2;37A5;1;Vollstaendige Antwort;05;1;5 Grad C;Ermittle die Heizkreispumpenlogik−Funktion M2;UTI;V
+getKA5M3;47A5;1;Vollstaendige Antwort;05;1;5 Grad C;Ermittle die Heizkreispumpenlogik−Funktion M3;UTI;V
+getKA6;27A6;1;Vollstaendige Antwort;24;1;36 Grad C;Ermittle die AbsolutSommersparschaltung;UTI;V
+getKA6M2;37A6;1;Vollstaendige Antwort;24;1;36 Grad C;Ermittle die AbsolutSommersparschaltung M2;UTI;V
+getKA6M3;47A6;1;Vollstaendige Antwort;24;1;36 Grad C;Ermittle die AbsolutSommersparschaltung M3;UTI;V
+getKonfiWirkung_aufPumpe;37A8;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;Ermittle Einfluss Mischer auf int UWP;ST;V
+getKFAM2;37FA;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;;PR1;V
+getKFBM2;37FB;1;Nur FF (nicht als gueltigen Wert bestaetigt);FF;1;;;CO;V
+getDevType;00F8;2;Vollstaendige Antwort;20 98;2;;Ermittle Device Typ der Anlage / SystemIdent_SX;DT;(null)
+getAnlagenschema;7700;2;Vollstaendige Antwort;02 00;2;;Ermittle das Anlagenschema;ST;V

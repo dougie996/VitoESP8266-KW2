@@ -1,0 +1,193 @@
+getBetriebArtM1: Betriebsart M1
+setBetriebArtM1: Betriebsart M1
+getTempA: Ermittle die Aussentemperatur in Grad C
+getTempAtp: Ermittle die Aussentemperatur in Grad C (Tiefpass)
+getTempAged: Ermittle die Aussentemperatur in Grad C (Gedaempft)
+getTempWWist: Ermittle die Warmwassertemperatur in Grad C
+getTempWWsoll: Ermittle die Warmwassersolltemperatur in Grad C
+setTempWWsoll: Setze die Warmwassersolltemperatur in Grad C
+getWWUWPNachlauf: Ermittle Warmwasserpumpennachlauf
+setWWUWPNachlauf: Setze Warmwasserpumpennachlauf
+getSpeichervorrang: Ermittle den Status Speichervorrang Heizkreis ohne Mischer A1 bzw. mit Mischer M1
+setSpeichervorrang: Setze den Status Speichervorrang Heizkreis ohne Mischer A1 bzw. mit Mischer M1
+getSpeichervorrangM2: Ermittle den Status Speichervorrang Heizkreis mit Mischer M2
+setSpeichervorrangM2: Setze den Status Speichervorrang Heizkreis mit Mischer M2
+getSpeichervorrangM3: Ermittle den Status Speichervorrang Heizkreis mit Mischer M3
+setSpeichervorrangM3: Setze den Status Speichervorrang Heizkreis mit Mischer M3
+getTempKOffset: Ermittle Kesseloffset KT ueber WWsoll in Grad C
+setTempKOffset: Setze Kesseloffset KT ueber WWsoll in Grad C
+getTempKist: Ermittle die Kesseltemperatur in Grad C
+getTempAbgas: Ermittle die Abgastemperatur in Grad C
+getTempKtp: Ermittle die Kesseltemperatur in Grad C (Tiefpass)
+getTempKsoll: Ermittle die Kesselsolltemperatur in Grad C
+getBetriebszeitStandby: Ermittle die NRF_BetriebszeitStandby
+getBrennerStatus: Ermittle den Brennerstatus
+getBrennerStatus2: Ermittle den Brennerstatus Stufe 2
+getBrennerStufe: Ermittle den Brennerstatus aktuelle Stufe
+getBrennerStarts: Ermittle die Brennerstarts
+setBrennerStarts: Setze die Brennerstarts
+getBrennerStunden1: Ermittle die Brennerstunden Stufe 1
+setBrennerStunden1: Setze die Brennerstunden Stufe 1
+getBrennerStunden2: Ermittle die Brennerstunden Stufe 2
+getLeistungIst: Ermittle Anlagen Ist-Leistung
+getOeldurchsatz: Eingestellter Oeldurchsatz Brenner in Dezi-Liter pro Stunde
+setOeldurchsatz: Oeldurchsatz Brenner in Dezi-Liter pro Stunde einstellen
+getOelverbrauch: Ermittle den Oelverbrauch kumuliert
+getNeigungM1: Ermittle Neigung Heizkennlinie M1
+getNeigungM2: Ermittle Neigung Heizkennlinie M2
+getNiveauM1: Ermittle Niveau Heizkennlinie M1
+getNiveauM2: Ermittle Niveau Heizkennlinie M2
+setNeigungM1: Setze Neigung Heizkennlinie M1
+setNeigungM2: Setze Neigung Heizkennlinie M2
+setNiveauM1: Setze Niveau Heizkennlinie M1
+setNiveauM2: Setze Niveau Heizkennlinie M2
+getTempVListM2: Ermittle die Vorlauftemperatur M2 in Grad C
+getTempVLsollM1: Ermittle die Vorlaufsolltemperatur M1 in Grad C
+getTempVLsollM2: Ermittle die Vorlaufsolltemperatur M2 in Grad C
+getTempVLsollM3: Ermittle die Vorlaufsolltemperatur M3 in Grad C
+getTempRL17A: Ermittle die Ruecklauftemperatur 17A in Grad C
+getTempKol: Ermittle die Kollektortemperatur in Grad C
+getSolarStatusWW: Ermittle den Status der Nachladeunterdrueckung
+getSolarStunden: Solar Betriebsstunden
+getSolarLeistung: Solar Leistung Gesamt
+getTempS4: Ermittle die Temperatur S4 in Grad C
+getTempSpu: Ermittle die Speichertemperatur unten in Grad C
+getTempRaumNorSollM1: Ermittle die Raumsolltemperatur normal M1 in Grad C
+setTempRaumNorSollM1: Setze die Raumsolltemperatur normal M1 in Grad C
+getTempRaumNorSollM2: Ermittle die Raumsolltemperatur normal M2 in Grad C
+setTempRaumNorSollM2: Setze die Raumsolltemperatur normal M2 in Grad C
+getTempRaumRedSollM1: Ermittle die Raumsolltemperatur reduziert M1 in Grad C
+setTempRaumRedSollM1: Setze die Raumsolltemperatur reduziert M1 in Grad C
+getTempRaumRedSollM2: Ermittle die Raumsolltemperatur reduziert M2 in Grad C
+setTempRaumRedSollM2: Setze die Raumsolltemperatur reduziert M2 in Grad C
+getPumpeStatusM1: Ermittle den Status der Pumpe M1
+getPumpeStatusM2: Ermittle den Status der Pumpe M2
+getPumpeDrehzahlM2: Ermittle die Drehzahl der Pumpe M2
+getPumpeDrehzahlIntern: Ermittle die Drehzahl der Internen Pumpe
+getPumpeStatusSp: Ermittle den Status der Speicherladepumpe
+getPumpeStatusZirku: Ermittle den Status der Zirkulationspumpe
+getPumpeStatusSolar: Ermittle den Status der Umwaelzpumpe Solar
+getPumpeDrehzahlSolar: Ermittle die Drehzahl der Umwaelzpumpe Solar
+getPumpeStatusSolar2: Ermittle den Status der Pumpe 2 Solar
+getPumpeStatusSolar3: Ermittle den Status der Pumpe 3 Solar
+getPumpeStatusSolar4: Ermittle den Status der Pumpe 4 Solar
+getMischerM1: Ermittle Mischerposition M1
+getMischerM2: Ermittle Mischerposition M2
+getMischerM3: Ermittle Mischerposition M3
+getTimerM1Mo: Schaltzeit Montag M1
+getTimerM1Di: Schaltzeit Dienstag M1
+getTimerM1Mi: Schaltzeit MIttwoch M1
+getTimerM1Do: Schaltzeit Donnerstag M1
+getTimerM1Fr: Schaltzeit Freitag M1
+getTimerM1Sa: Schaltzeit Samstag M1
+getTimerM1So: Schaltzeit Sonntag M1
+getTimerM2Mo: Schaltzeit Montag M2
+getTimerM2Di: Schaltzeit Dienstag M2
+getTimerM2Mi: Schaltzeit Mittwoch M2
+getTimerM2Do: Schaltzeit Donnerstag M2
+getTimerM2Fr: Schaltzeit Freitag M2
+getTimerM2Sa: Schaltzeit Samstag M2
+getTimerM2So: Schaltzeit Sonntag M2
+getTimerWWMo: Schaltzeit Montag Warmwasser
+getTimerWWDi: Schaltzeit Dienstag Warmwasser
+getTimerWWMi: Schaltzeit Mittwoch Warmwasser
+getTimerWWDo: Schaltzeit Donnerstag Warmwasser
+getTimerWWFr: Schaltzeit Freitag Warmwasser
+getTimerWWSa: Schaltzeit Samstag Warmwasser
+getTimerWWSo: Schaltzeit Sonntag Warmwasser
+getTimerZirkuMo: Schaltzeit Montag Zirku
+getTimerZirkuDi: Schaltzeit Dienstag Zirku
+getTimerZirkuMi: Schaltzeit Mittwoch Zirku
+getTimerZirkuDo: Schaltzeit Donnerstag Zirku
+getTimerZirkuFr: Schaltzeit Freitag Zirku
+getTimerZirkuSa: Schaltzeit Samstag Zirku
+getTimerZirkuSo: Schaltzeit Sonntag Zirku
+getBetriebArt: Betriebsart
+getBetriebArtM2: Betriebsart M2
+getBetriebSparM1: Betriebsart Spar M1
+getBetriebSparM2: Betriebsart Spar M2
+getBetriebPartyM1: Betriebsart Party M1
+getBetriebPartyM2: Betriebsart Party M2
+getTempPartyM1: Solltemperatur Partybetrieb M1
+setTempPartyM1: Setze die Warmwassersolltemperatur Party M1 in Grad C
+getTempPartyM2: Solltemperatur Partybetrieb M2
+setTempPartyM2: Setze die Warmwassersolltemperatur Party M2 in Grad C
+setBetriebPartyM1: Setze Betriebsart Party M1
+setBetriebPartyM2: Setze Betriebsart Party M2
+getEinflussExtSperren: Einfluss Extern Sperren auf Pumpen
+getEinflussExtAnforderung: Einfluss Externe Anforderung auf Pumpen
+getExtSperren: Ist Extern Sperren aktiv
+getExtAnforderung: Ist Externe Anforderung aktiv
+getStatusFrostM1: Status Frostwarnung M1
+getStatusFrostM2: Status Frostwarnung M2
+getStatusStoerung: Status Sammelstoerung
+getError0: Ermittle Fehlerhistory Eintrag 1
+getError1: Ermittle Fehlerhistory Eintrag 2
+getError2: Ermittle Fehlerhistory Eintrag 3
+getError3: Ermittle Fehlerhistory Eintrag 4
+getError4: Ermittle Fehlerhistory Eintrag 5
+getError5: Ermittle Fehlerhistory Eintrag 6
+getError6: Ermittle Fehlerhistory Eintrag 7
+getError7: Ermittle Fehlerhistory Eintrag 8
+getError8: Ermittle Fehlerhistory Eintrag 9
+getError9: Ermittle Fehlerhistory Eintrag 10
+getSystemTime: Ermittle Systemzeit
+setSystemTime: Setze Systemzeit
+getK90: Ermittle die Zeitkonstante Aussentemperatur
+setK90: Setze die Zeitkonstante Aussentemperatur
+getDaempfung: Ermittle die Zeitkonstante Aussentemperatur
+setDaempfung: Setze die Zeitkonstante Aussentemperatur
+getKA3_KonfiFrostgrenzeM1_GWG: Ermittle die eingestellte Frostgrenze A1M1
+setKA3_KonfiFrostgrenzeM1_GWG: Setze die Frostgrenze A1M1
+getKA3_KonfiFrostgrenzeM2_GWG: Ermittle die eingestellte Frostgrenze
+setKA3_KonfiFrostgrenzeM2_GWG: Setze die Frostgrenze
+getKA5: Ermittle die HeizkreispumpenlogikâFunktion
+setKA5: Setze die HeizkreispumpenlogikâFunktion
+getKA5M2: Ermittle die HeizkreispumpenlogikâFunktion M2
+setKA5M2: Setze die HeizkreispumpenlogikâFunktion M2
+getKA5M3: Ermittle die HeizkreispumpenlogikâFunktion M3
+setKA5M3: Setze die HeizkreispumpenlogikâFunktion M3
+getKA6: Ermittle die AbsolutSommersparschaltung
+setKA6: Setze die AbsolutSommersparschaltung
+getKA6M2: Ermittle die AbsolutSommersparschaltung M2
+setKA6M2: Setze die AbsolutSommersparschaltung M2
+getKA6M3: Ermittle die AbsolutSommersparschaltung M3
+setKA6M3: Setze die AbsolutSommersparschaltung M3
+getKonfiWirkung_aufPumpe: Ermittle Einfluss Mischer auf int UWP
+setKonfiWirkung_aufPumpe: Setze  Einfluss Mischer auf int UWP
+setKFAM2: Setze die KFA_KonfiUeberhoehungVTSollM2
+getKFAM2: Ermittle die KFA_KonfiUeberhoehungVTSollM2
+setKFBM2: Setze die KFB_KonfiDauerUeberhoehungVTSollM2
+getKFBM2: Ermittle die KFB_KonfiDauerUeberhoehungVTSollM2
+setPumpeStatusZirku: Setze den Status der Zirkulationspumpe
+setTimerM1Mo: Schaltzeit Montag M1
+setTimerM1Di: Schaltzeit Dienstag M1
+setTimerM1Mi: Schaltzeit Mittwoch M1
+setTimerM1Do: Schaltzeit Donnerstag M1
+setTimerM1Fr: Schaltzeit Freitag M1
+setTimerM1Sa: Schaltzeit Samstag M1
+setTimerM1So: Schaltzeit Sonntag M1
+setTimerM2Mo: Schaltzeit Montag M2
+setTimerM2Di: Schaltzeit Dienstag M2
+setTimerM2Mi: Schaltzeit Mittwoch M2
+setTimerM2Do: Schaltzeit Donnerstag M2
+setTimerM2Fr: Schaltzeit Freitag M2
+setTimerM2Sa: Schaltzeit Samstag M2
+setTimerM2So: Schaltzeit Sonntag M2
+setTimerWWMo: Schaltzeit Montag Warmwasser
+setTimerWWDi: Schaltzeit Dienstag Warmwasser
+setTimerWWMi: Schaltzeit Mittwoch Warmwasser
+setTimerWWDo: Schaltzeit Donnerstag Warmwasser
+setTimerWWFr: Schaltzeit Freitag Warmwasser
+setTimerWWSa: Schaltzeit Samstag Warmwasser
+setTimerWWSo: Schaltzeit Sonntag Warmwasser
+setTimerZirkuMo: Schaltzeit Montag Zirku
+setTimerZirkuDi: Schaltzeit Dienstag Zirku
+setTimerZirkuMi: Schaltzeit Mittwoch Zirku
+setTimerZirkuDo: Schaltzeit Donnerstag Zirku
+setTimerZirkuFr: Schaltzeit Freitag Zirku
+setTimerZirkuSa: Schaltzeit Samstag Zirku
+setTimerZirkuSo: Schaltzeit Sonntag Zirku
+getDevType: Ermittle Device Typ der Anlage
+getAnlagenschema: Ermittle das Anlagenschema
+vctrld>

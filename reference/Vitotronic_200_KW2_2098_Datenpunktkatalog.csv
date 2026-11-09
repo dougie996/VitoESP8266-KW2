@@ -1,0 +1,210 @@
+﻿Art;Befehl;Adresse_HEX;Laenge_Bytes;Kodierung;Lokal_installiert;Verifikation;Beschreibung;Protokoll
+LESEN;getTempA;0800;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Aussentemperatur in Grad C;getaddr
+LESEN;getTempAtp;5525;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Aussentemperatur in Grad C (Tiefpass);getaddr
+LESEN;getTempAged;5527;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Aussentemperatur in Grad C (Gedaempft);getaddr
+LESEN;getTempWWist;0804;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Warmwassertemperatur in Grad C;getaddr
+LESEN;getTempWWsoll;6300;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Warmwassersolltemperatur in Grad C;getaddr
+SCHREIBEN;setTempWWsoll;6300;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die Warmwassersolltemperatur in Grad C;setaddr
+LESEN;getTempStp2;0814;2;UT;nein;AUSGESCHLOSSEN fuer 2098;Ermittle die WW Auslauftemperatur in Grad C (Tiefpass);getaddr
+LESEN;getWWUWPNachlauf;6762;2;CO;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Warmwasserpumpennachlauf;getaddr
+SCHREIBEN;setWWUWPNachlauf;6762;2;CO;ja;SCHREIBBEFEHL - nicht testen;Setze Warmwasserpumpennachlauf;setaddr
+LESEN;getSpeichervorrang;27A2;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status Speichervorrang Heizkreis ohne Mischer A1 bzw. mit Mischer M1;getaddr
+SCHREIBEN;setSpeichervorrang;27A2;1;ST;ja;SCHREIBBEFEHL - nicht testen;Setze den Status Speichervorrang Heizkreis ohne Mischer A1 bzw. mit Mischer M1;setaddr
+LESEN;getSpeichervorrangM2;37A2;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status Speichervorrang Heizkreis mit Mischer M2;getaddr
+SCHREIBEN;setSpeichervorrangM2;37A2;1;ST;ja;SCHREIBBEFEHL - nicht testen;Setze den Status Speichervorrang Heizkreis mit Mischer M2;setaddr
+LESEN;getSpeichervorrangM3;47A2;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status Speichervorrang Heizkreis mit Mischer M3;getaddr
+SCHREIBEN;setSpeichervorrangM3;47A2;1;ST;ja;SCHREIBBEFEHL - nicht testen;Setze den Status Speichervorrang Heizkreis mit Mischer M3;setaddr
+LESEN;getTempKOffset;6760;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Kesseloffset KT ueber WWsoll in Grad C;getaddr
+SCHREIBEN;setTempKOffset;6760;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze Kesseloffset KT ueber WWsoll in Grad C;setaddr
+LESEN;getTempKist;0802;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Kesseltemperatur in Grad C;getaddr
+LESEN;getTempAbgas;0808;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Abgastemperatur in Grad C;getaddr
+LESEN;getTempKtp;0810;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Kesseltemperatur in Grad C (Tiefpass);getaddr
+LESEN;getTempKsoll;5502;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Kesselsolltemperatur in Grad C;getaddr
+LESEN;getVolStrom;0C24;2;VS;nein;NICHT im lokalen vcontrold;Ermittle den Volumenstrom l/h des Heizkreises;getaddr
+LESEN;getBetriebszeitStandby;08B8;4;CS;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die NRF_BetriebszeitStandby;getaddr
+LESEN;getBrennerStatus;55D3;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Brennerstatus;getaddr
+LESEN;getBrennerStatus2;0849;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Brennerstatus Stufe 2;getaddr
+LESEN;getBrennerStufe;551E;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Brennerstatus aktuelle Stufe;getaddr
+LESEN;getBrennerStarts;088A;4;CO;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Brennerstarts;getaddr
+SCHREIBEN;setBrennerStarts;088A;2;CO;ja;SCHREIBBEFEHL - nicht testen;Setze die Brennerstarts;setaddr
+LESEN;getBrennerStunden1;08A7;4;CS;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Brennerstunden Stufe 1;getaddr
+SCHREIBEN;setBrennerStunden1;08A7;4;CO;ja;SCHREIBBEFEHL - nicht testen;Setze die Brennerstunden Stufe 1;setaddr
+LESEN;getBrennerStunden2;08AB;4;CS;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Brennerstunden Stufe 2;getaddr
+LESEN;getLeistungIst;A38F;2;PR3;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Anlagen Ist-Leistung;getaddr
+LESEN;getOeldurchsatz;5726;4;CO;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Eingestellter Oeldurchsatz Brenner in Dezi-Liter pro Stunde;getaddr
+SCHREIBEN;setOeldurchsatz;5726;4;CO;ja;SCHREIBBEFEHL - nicht testen;Oeldurchsatz Brenner in Dezi-Liter pro Stunde einstellen;setaddr
+LESEN;getOelverbrauch;7574;4;COL;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Oelverbrauch kumuliert;getaddr
+LESEN;getNeigungM1;2305;1;UN;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Neigung Heizkennlinie M1;getaddr
+LESEN;getNeigungM2;3305;1;UN;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Neigung Heizkennlinie M2;getaddr
+LESEN;getNiveauM1;2304;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Niveau Heizkennlinie M1;getaddr
+LESEN;getNiveauM2;3304;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Niveau Heizkennlinie M2;getaddr
+SCHREIBEN;setNeigungM1;2305;1;UN;ja;SCHREIBBEFEHL - nicht testen;Setze Neigung Heizkennlinie M1;setaddr
+SCHREIBEN;setNeigungM2;3305;1;UN;ja;SCHREIBBEFEHL - nicht testen;Setze Neigung Heizkennlinie M2;setaddr
+SCHREIBEN;setNiveauM1;2304;1;ST;ja;SCHREIBBEFEHL - nicht testen;Setze Niveau Heizkennlinie M1;setaddr
+SCHREIBEN;setNiveauM2;3304;1;ST;ja;SCHREIBBEFEHL - nicht testen;Setze Niveau Heizkennlinie M2;setaddr
+LESEN;getTempVListM1;;2;UT;nein;KEINE ADRESSE;Ermittle die Vorlauftemperatur M1 in Grad C;getaddr
+LESEN;getTempVListM2;080C;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Vorlauftemperatur M2 in Grad C;getaddr
+LESEN;getTempVLsollM1;2544;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Vorlaufsolltemperatur M1 in Grad C;getaddr
+LESEN;getTempVLsollM2;3544;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Vorlaufsolltemperatur M2 in Grad C;getaddr
+LESEN;getTempVLsollM3;4544;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Vorlaufsolltemperatur M3 in Grad C;getaddr
+LESEN;getTempRL17A;080A;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Ruecklauftemperatur 17A in Grad C;getaddr
+LESEN;getTempKol;6564;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Kollektortemperatur in Grad C;getaddr
+LESEN;getSolarStatusWW;6551;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status der Nachladeunterdrueckung;getaddr
+LESEN;getSolarStunden;6568;2;CO;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Solar Betriebsstunden;getaddr
+LESEN;getSolarLeistung;6560;4;CO;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Solar Leistung Gesamt;getaddr
+LESEN;getTempS4;0124;1;UT1;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Temperatur S4 in Grad C;getaddr
+LESEN;getTempSpu;6566;2;UT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Speichertemperatur unten in Grad C;getaddr
+LESEN;getTempStp;0812;2;UT;nein;AUSGESCHLOSSEN fuer 2098;Ermittle die Speichertemperatur in Grad C (Tiefpass);getaddr
+LESEN;getTempRaumNorSollM1;2306;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Raumsolltemperatur normal M1 in Grad C;getaddr
+SCHREIBEN;setTempRaumNorSollM1;2306;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die Raumsolltemperatur normal M1 in Grad C;setaddr
+LESEN;getTempRaumNorSollM2;3306;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Raumsolltemperatur normal M2 in Grad C;getaddr
+SCHREIBEN;setTempRaumNorSollM2;3306;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die Raumsolltemperatur normal M2 in Grad C;setaddr
+LESEN;getTempRaumRedSollM1;2307;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Raumsolltemperatur reduziert M1 in Grad C;getaddr
+SCHREIBEN;setTempRaumRedSollM1;2307;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die Raumsolltemperatur reduziert M1 in Grad C;setaddr
+LESEN;getTempRaumRedSollM2;3307;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Raumsolltemperatur reduziert M2 in Grad C;getaddr
+SCHREIBEN;setTempRaumRedSollM2;3307;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die Raumsolltemperatur reduziert M2 in Grad C;setaddr
+LESEN;getPumpeStatusM1;2906;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status der Pumpe M1;getaddr
+LESEN;getPumpeStatusM2;3906;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status der Pumpe M2;getaddr
+LESEN;getPumpeDrehzahlM2;3906;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Drehzahl der Pumpe M2;getaddr
+LESEN;getPumpeStatusIntern;;;;nein;KEINE ADRESSE;Ermittle den Status der Internen Pumpe;getaddr
+LESEN;getPumpeDrehzahlIntern;3906;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Drehzahl der Internen Pumpe;getaddr
+LESEN;getPumpeStatusSp;0845;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status der Speicherladepumpe;getaddr
+LESEN;getPumpeStatusZirku;0846;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status der Zirkulationspumpe;getaddr
+LESEN;getPumpeStatusSolar;6552;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status der Umwaelzpumpe Solar;getaddr
+LESEN;getPumpeDrehzahlSolar;6552;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Drehzahl der Internen Pumpe;getaddr
+LESEN;getPumpeStatusSolar2;6553;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status der Pumpe 2 Solar;getaddr
+LESEN;getPumpeStatusSolar3;6554;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status der Pumpe 3 Solar;getaddr
+LESEN;getPumpeStatusSolar4;6555;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle den Status der Pumpe 4 Solar;getaddr
+LESEN;getTempSTSSOL;081A;2;UT;nein;AUSGESCHLOSSEN fuer 2098;Ermittle die Speichertemperatur in Grad C (NRF_TiefpassTemperaturwert_STSSOL);getaddr
+LESEN;getMischerM1;254C;1;PR;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Mischerposition M1;getaddr
+LESEN;getMischerM2;354C;1;PR;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Mischerposition M2;getaddr
+LESEN;getMischerM3;454C;1;PR;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Mischerposition M3;getaddr
+LESEN;getTimerM1Mo;2000;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Montag M1;getaddr
+LESEN;getTimerM1Di;2008;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Dienstag M1;getaddr
+LESEN;getTimerM1Mi;2010;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit MIttwoch M1;getaddr
+LESEN;getTimerM1Do;2018;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Donnerstag M1;getaddr
+LESEN;getTimerM1Fr;2020;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Freitag M1;getaddr
+LESEN;getTimerM1Sa;2028;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Samstag M1;getaddr
+LESEN;getTimerM1So;2030;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Sonntag M1;getaddr
+LESEN;getTimerM2Mo;3000;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Montag M2;getaddr
+LESEN;getTimerM2Di;3008;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Dienstag M2;getaddr
+LESEN;getTimerM2Mi;3010;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Mittwoch M2;getaddr
+LESEN;getTimerM2Do;3018;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Donnerstag M2;getaddr
+LESEN;getTimerM2Fr;3020;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Freitag M2;getaddr
+LESEN;getTimerM2Sa;3028;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Samstag M2;getaddr
+LESEN;getTimerM2So;3030;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Sonntag M2;getaddr
+LESEN;getTimerWWMo;2100;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Montag Warmwasser;getaddr
+LESEN;getTimerWWDi;2108;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Dienstag Warmwasser;getaddr
+LESEN;getTimerWWMi;2110;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Mittwoch Warmwasser;getaddr
+LESEN;getTimerWWDo;2118;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Donnerstag Warmwasser;getaddr
+LESEN;getTimerWWFr;2120;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Freitag Warmwasser;getaddr
+LESEN;getTimerWWSa;2128;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Samstag Warmwasser;getaddr
+LESEN;getTimerWWSo;2130;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Sonntag Warmwasser;getaddr
+LESEN;getTimerZirkuMo;2200;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Montag Zirku;getaddr
+LESEN;getTimerZirkuDi;2208;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Dienstag Zirku;getaddr
+LESEN;getTimerZirkuMi;2210;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Mittwoch Zirku;getaddr
+LESEN;getTimerZirkuDo;2218;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Donnerstag Zirku;getaddr
+LESEN;getTimerZirkuFr;2220;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Freitag Zirku;getaddr
+LESEN;getTimerZirkuSa;2228;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Samstag Zirku;getaddr
+LESEN;getTimerZirkuSo;2230;8;CT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Schaltzeit Sonntag Zirku;getaddr
+LESEN;getBetriebArtM1;2301;1;BA;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Betriebsart M1;getaddr
+LESEN;getBetriebArt;2301;1;BA;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Betriebsart;getaddr
+LESEN;getBetriebArtM2;3301;1;BA;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Betriebsart M2;getaddr
+LESEN;getBetriebSparM1;2302;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Betriebsart Spar M1;getaddr
+LESEN;getBetriebSparM2;3302;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Betriebsart Spar M2;getaddr
+LESEN;getBetriebPartyM1;2303;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Betriebsart Party M1;getaddr
+LESEN;getBetriebPartyM2;3303;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Betriebsart Party M2;getaddr
+LESEN;getTempPartyM1;2308;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Solltemperatur Partybetrieb M1;getaddr
+SCHREIBEN;setTempPartyM1;2308;1;ST;ja;SCHREIBBEFEHL - nicht testen;Setze die Warmwassersolltemperatur Party M1 in Grad C;setaddr
+LESEN;getTempPartyM2;3308;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Solltemperatur Partybetrieb M2;getaddr
+SCHREIBEN;setTempPartyM2;3308;1;ST;ja;SCHREIBBEFEHL - nicht testen;Setze die Warmwassersolltemperatur Party M2 in Grad C;setaddr
+SCHREIBEN;setBetriebPartyM1;2303;1;RT;ja;SCHREIBBEFEHL - nicht testen;Setze Betriebsart Party M1;setaddr
+SCHREIBEN;setBetriebPartyM2;3303;1;RT;ja;SCHREIBBEFEHL - nicht testen;Setze Betriebsart Party M2;setaddr
+LESEN;getEinflussExtSperren;5732;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Einfluss Extern Sperren auf Pumpen;getaddr
+LESEN;getEinflussExtAnforderung;5734;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Einfluss Externe Anforderung auf Pumpen;getaddr
+LESEN;getExtSperren;0A81;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ist Extern Sperren aktiv;getaddr
+LESEN;getExtAnforderung;0A80;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ist Externe Anforderung aktiv;getaddr
+LESEN;getStatusFrostM1;2500;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Status Frostwarnung M1;getaddr
+LESEN;getStatusFrostM2;3500;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Status Frostwarnung M2;getaddr
+LESEN;getStatusStoerung;7579;1;RT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Status Sammelstoerung;getaddr
+LESEN;getError0;7507;9;ES;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Fehlerhistory Eintrag 1;getaddr
+LESEN;getError1;7510;9;ES;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Fehlerhistory Eintrag 2;getaddr
+LESEN;getError2;7519;9;ES;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Fehlerhistory Eintrag 3;getaddr
+LESEN;getError3;7522;9;ES;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Fehlerhistory Eintrag 4;getaddr
+LESEN;getError4;752B;9;ES;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Fehlerhistory Eintrag 5;getaddr
+LESEN;getError5;7534;9;ES;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Fehlerhistory Eintrag 6;getaddr
+LESEN;getError6;753D;9;ES;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Fehlerhistory Eintrag 7;getaddr
+LESEN;getError7;7546;9;ES;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Fehlerhistory Eintrag 8;getaddr
+LESEN;getError8;754F;9;ES;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Fehlerhistory Eintrag 9;getaddr
+LESEN;getError9;7558;9;ES;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Fehlerhistory Eintrag 10;getaddr
+LESEN;getSystemTime;088E;8;TI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Systemzeit;getaddr
+SCHREIBEN;setSystemTime;088E;8;TI;ja;SCHREIBBEFEHL - nicht testen;Setze Systemzeit;setaddr
+LESEN;getKA5;27A5;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Heizkreispumpenlogik−Funktion;getaddr
+SCHREIBEN;setKA5;27A5;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die Heizkreispumpenlogik−Funktion;setaddr
+LESEN;getKA5M2;37A5;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Heizkreispumpenlogik−Funktion M2;getaddr
+SCHREIBEN;setKA5M2;37A5;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die Heizkreispumpenlogik−Funktion M2;setaddr
+LESEN;getKA5M3;47A5;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die Heizkreispumpenlogik−Funktion M3;getaddr
+SCHREIBEN;setKA5M3;47A5;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die Heizkreispumpenlogik−Funktion M3;setaddr
+LESEN;getKA6;27A6;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die AbsolutSommersparschaltung;getaddr
+SCHREIBEN;setKA6;27A6;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die AbsolutSommersparschaltung;setaddr
+LESEN;getKA6M2;37A6;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die AbsolutSommersparschaltung M2;getaddr
+SCHREIBEN;setKA6M2;37A6;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die AbsolutSommersparschaltung M2;setaddr
+LESEN;getKA6M3;47A6;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die AbsolutSommersparschaltung M3;getaddr
+SCHREIBEN;setKA6M3;47A6;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die AbsolutSommersparschaltung M3;setaddr
+LESEN;getKonfiWirkung_aufPumpe;37A8;1;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Einfluss Mischer auf int UWP;getaddr
+SCHREIBEN;setKonfiWirkung_aufPumpe;37A8;1;ST;ja;SCHREIBBEFEHL - nicht testen;Setze Einfluss Mischer auf int UWP;setaddr
+LESEN;getKA3_KonfiFrostgrenzeM1_GWG;27A3;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die eingestellte Frostgrenze A1M1;getaddr
+SCHREIBEN;setKA3_KonfiFrostgrenzeM1_GWG;27A3;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die Frostgrenze A1M1;setaddr
+LESEN;getKA3_KonfiFrostgrenzeM2_GWG;37A3;1;UTI;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle die eingestellte Frostgrenze;getaddr
+SCHREIBEN;setKA3_KonfiFrostgrenzeM2_GWG;37A3;1;UTI;ja;SCHREIBBEFEHL - nicht testen;Setze die Frostgrenze;setaddr
+SCHREIBEN;setPumpeStatusZirku;0846;1;RT;ja;SCHREIBBEFEHL - nicht testen;Setze den Status der Zirkulationspumpe;setaddr
+SCHREIBEN;setTimerM1Mo;2000;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Montag M1;setaddr
+SCHREIBEN;setTimerM1Di;2008;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Dienstag M1;setaddr
+SCHREIBEN;setTimerM1Mi;2010;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Mittwoch M1;setaddr
+SCHREIBEN;setTimerM1Do;2018;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Donnerstag M1;setaddr
+SCHREIBEN;setTimerM1Fr;2020;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Freitag M1;setaddr
+SCHREIBEN;setTimerM1Sa;2028;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Samstag M1;setaddr
+SCHREIBEN;setTimerM1So;2030;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Sonntag M1;setaddr
+SCHREIBEN;setTimerM2Mo;3000;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Montag M2;setaddr
+SCHREIBEN;setTimerM2Di;3008;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Dienstag M2;setaddr
+SCHREIBEN;setTimerM2Mi;3010;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Mittwoch M2;setaddr
+SCHREIBEN;setTimerM2Do;3018;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Donnerstag M2;setaddr
+SCHREIBEN;setTimerM2Fr;3020;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Freitag M2;setaddr
+SCHREIBEN;setTimerM2Sa;3028;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Samstag M2;setaddr
+SCHREIBEN;setTimerM2So;3030;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Sonntag M2;setaddr
+SCHREIBEN;setTimerWWMo;2100;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Montag Warmwasser;setaddr
+SCHREIBEN;setTimerWWDi;2108;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Dienstag Warmwasser;setaddr
+SCHREIBEN;setTimerWWMi;2110;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Mittwoch Warmwasser;setaddr
+SCHREIBEN;setTimerWWDo;2118;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Donnerstag Warmwasser;setaddr
+SCHREIBEN;setTimerWWFr;2120;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Freitag Warmwasser;setaddr
+SCHREIBEN;setTimerWWSa;2128;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Samstag Warmwasser;setaddr
+SCHREIBEN;setTimerWWSo;2130;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Sonntag Warmwasser;setaddr
+SCHREIBEN;setTimerZirkuMo;2200;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Montag Zirku;setaddr
+SCHREIBEN;setTimerZirkuDi;2208;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Dienstag Zirku;setaddr
+SCHREIBEN;setTimerZirkuMi;2210;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Mittwoch Zirku;setaddr
+SCHREIBEN;setTimerZirkuDo;2218;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Donnerstag Zirku;setaddr
+SCHREIBEN;setTimerZirkuFr;2220;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Freitag Zirku;setaddr
+SCHREIBEN;setTimerZirkuSa;2228;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Samstag Zirku;setaddr
+SCHREIBEN;setTimerZirkuSo;2230;8;CT;ja;SCHREIBBEFEHL - nicht testen;Schaltzeit Sonntag Zirku;setaddr
+LESEN;getDevType;00F8;8;DT;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle Device Typ der Anlage / SystemIdent_SX;getaddr
+LESEN;getCtrlId;00F9;7;DT;nein;NICHT im lokalen vcontrold;Reglerkennung;getaddr
+LESEN;getInventory;08E0;7;SN;nein;NICHT im lokalen vcontrold;Sachnummer;getaddr
+LESEN;getInvCodePlug;1010;7;SN;nein;NICHT im lokalen vcontrold;Sachnummer Codierstecker;getaddr
+LESEN;getPanelSWIndex;7330;8;DT;nein;NICHT im lokalen vcontrold;Bedienteil SW Index;getaddr
+LESEN;getKsCardType;7656;4;DT;nein;NICHT im lokalen vcontrold;KS Karte Typ;getaddr
+LESEN;getAnlagenschema;7700;2;ST;ja;LESEKANDIDAT - realer Wert noch ungeprueft;Ermittle das Anlagenschema;getaddr
+LESEN;init;;;;nein;KEINE ADRESSE;Inintialisierung;getaddr
+SPEZIAL;get;;;;nein;Sonderbefehl;Testabfrage, Adresse eingeben;gettestaddr
+SPEZIAL;vget;;;;nein;Sonderbefehl;Testabfrage, Virtuelle Adresse eingeben;getvtestaddr
+SPEZIAL;bget;;;;nein;Sonderbefehl;Testabfrage, Bedienteil Adresse eingeben;getbtestaddr
+SPEZIAL;pget;;;;nein;Sonderbefehl;Testabfrage, Port Adresse eingeben;getptestaddr
+SPEZIAL;eget;;;;nein;Sonderbefehl;Testabfrage, EEProm Adresse eingeben;getetestaddr
+SPEZIAL;xget;;;;nein;Sonderbefehl;Testabfrage, XRAM Adresse eingeben;getxtestaddr
+SPEZIAL;kmget;;;;nein;Sonderbefehl;Testabfrage, KM-Bus EEProm Adresse eingeben;getkmtestaddr
+SPEZIAL;getExtBA;;;;nein;Sonderbefehl;Ermittle Zustand der externen Betriebsartenumschaltung;getxaddr
+LESEN;getPumpeSollM1;;;;nein;KEINE ADRESSE;Ermittle Solldrehzahl Pumpe M1;getaddr
+SPEZIAL;getVentilStatus;;;;nein;Sonderbefehl;Ermittle Zustand Umschaltventil WW/Heizen;getpaddr
+LESEN;getUmschaltventil;0A10;1;USV;nein;AUSGESCHLOSSEN fuer 2098;Ermittle den Status des Umschaltventils WW/Heizen;getaddr
+SCHREIBEN;setUmschaltventil;0A10;1;USV;nein;SCHREIBBEFEHL - nicht testen;Setze den Status des Umschaltventils WW/Heizen;setaddr
+SPEZIAL;getHKPTyp;;;;nein;Sonderbefehl;Ermittle Typ der Heizkreispumpe;geteaddr
+LESEN;getTempRueck;;;;nein;KEINE ADRESSE;Ermittle die Rueckauftemepratur;getaddr
