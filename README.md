@@ -61,3 +61,8 @@ backup/: letzter Quellcode-Stand der v0.5.2 als Rückfalloption.
 
 Die ausführliche Dokumentation ist separat in
 VitoESP8266_KW2_Migration_2026-11-09.md verfügbar.
+
+## Heizungsueberwachung
+
+Der Node-RED-Tab Vito Monitoring prueft den KW2-Sammelstatus
+und die Optolink-Kommunikation. Details in integration/node-red/README.md.
