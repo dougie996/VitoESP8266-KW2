@@ -25,8 +25,8 @@ Node-RED-Funktion. Bei Aenderungen am Flow diese Kopie synchronisieren.
 
 ## Anbindungen
 
-- Vorhandener Send Email Node per Link-In 309e4e5600834fe8.
-- Vorhandene H3 MQTT Strecke per Link-In 63920ecd6f358478.
+- Vorhandener Send Email Node 
+- Vorhandene H3 MQTT Strecke 
 - LED9 MQTT: h3/hmouled16/e030bf/led/9/set.
 - Status MQTT retained: h3/heating/monitor/status.
 - Anzeige im Dashboard-2, Gruppe H3.
